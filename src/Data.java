@@ -2,10 +2,10 @@
 public class Data {
 
     private int dia;
-    private String mes;
-    private double ano;
+    private int mes;
+    private int ano;
 
-    public void mostrar() {
+    public void getmostrar() {
 
         System.out.println(dia);
         System.out.println(mes);
@@ -16,11 +16,11 @@ public class Data {
         return this.dia;
     }
 
-    public String getmes() {
+    public int getmes() {
         return this.mes;
     }
 
-    public double getano() {
+    public int getano() {
         return this.ano;
     }
 
@@ -28,11 +28,11 @@ public class Data {
         this.dia = d;
     }
 
-    public void setmes(String m) {
+    public void setmes(int m) {
         this.mes = m;
     }
 
-    public void setano(double a) {
+    public void setano(int a) {
         this.ano = a;
     }
 }

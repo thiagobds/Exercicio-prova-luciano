@@ -3,7 +3,7 @@ public class Proprietario {
     private String nome;
     private Data dataDeNascimento;
 
-public void mostrar(){
+public void getmostrar(){
     System.out.println (nome);
     System.out.println (dataDeNascimento);
 }
@@ -20,8 +20,8 @@ public void setNome(String n){
     this.nome = n;
 }
 
-public void setDatadeNascimento(Data d){
-    this.dataDeNascimento = d;
+public void setDatadeNascimento(Data da){
+    this.dataDeNascimento = da;
 }
 
 }

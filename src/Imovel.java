@@ -3,19 +3,19 @@ public class Imovel {
     private Proprietario proprietario;
     private String tipo;
     
-public void mostrar(){
+public void getmostrar(){
     System.out.println (DataCompra);
     System.out.println (proprietario);
     System.out.println (tipo);
 }
-public boolean informarTipo(String tipo){
-    if (tipo == "casa"){
+public boolean getinformarTipo(String tipo){
+    if (tipo.equals ("casa")){
         return true;
     }
-    if (tipo == "Apartamento"){
+    if (tipo.equals ("Apartamento")){
         return true;
     }
-    if (tipo == "Sitio"){
+    if (tipo.equals ("Sitio")){
         return true;
     }
     else{
